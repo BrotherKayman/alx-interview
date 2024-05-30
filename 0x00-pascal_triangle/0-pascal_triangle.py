@@ -29,5 +29,3 @@ def pascal_triangle(n):
         x.append(row)
 
     return x
-
-# Example usage:

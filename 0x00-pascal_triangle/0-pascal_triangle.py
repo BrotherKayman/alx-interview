@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Pascal triangle
 """
@@ -16,6 +17,7 @@ def pascal_triangle(n):
         ValueError: If n <= 0.
 
     """
+
     x = [[1]]
 
     if n <= 0:
@@ -27,5 +29,6 @@ def pascal_triangle(n):
             row.append(x[i - 1][j - 1] + x[i - 1][j])
         row.append(1)
         x.append(row)
+
 
     return x

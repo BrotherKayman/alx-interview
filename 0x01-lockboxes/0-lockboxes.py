@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-"""Solves the lock boxes puzzle"""
+"""
+Solves the lock boxes puzzle.
+"""
 
 
 def find_next_box(checked_boxes):
     """
-    Finds the next box to check.
+    Find the next box to check.
 
     Args:
         checked_boxes (dict): Dictionary containing boxes that have been opened and checked.
@@ -21,7 +23,7 @@ def find_next_box(checked_boxes):
 
 def canUnlockAll(boxes):
     """
-    Determines if all the boxes can be opened.
+    Determine if all the boxes can be opened.
 
     Args:
         boxes (list of lists): List where each element is a list of keys contained in that box.
@@ -62,7 +64,7 @@ def canUnlockAll(boxes):
 
 
 def main():
-    """Entry point"""
+    """Entry point."""
     pass
 
 

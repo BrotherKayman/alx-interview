@@ -46,11 +46,8 @@ def solve(n):
     Args:
         n (int): The size of the chessboard.
     """
-    k = []
-    i = 0
-    count = 0
-    for solution in queens(n):
-        count += 1
-    print(count)
+    solutions = list(queens(n))
+    for solution in solutions:
+        print([[i, solution[i]] for i in range(n)])
 
 solve(n)

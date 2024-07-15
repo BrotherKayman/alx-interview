@@ -48,12 +48,9 @@ def solve(n):
     """
     k = []
     i = 0
+    count = 0
     for solution in queens(n):
-        for s in solution:
-            k.append([i, s])
-            i += 1
-        print(k)
-        k = []
-        i = 0
+        count += 1
+    print(count)
 
 solve(n)
